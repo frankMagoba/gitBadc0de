@@ -106,7 +106,6 @@ Yet $16^7 = 268435456$ should be enough for about any project.
 See [ordered branch](https://github.com/phadej/git-badc0de/commits/ordered),
 isn't that cool!?
 
-![third GitHub screenshot](https://oleg.fi/gists/images/git-badc0de-github-3.png)
 
 Implementation comments
 -----------------------
