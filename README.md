@@ -55,8 +55,8 @@ the `HEAD` commit object data. In `git-badc0de` one commit looks like:
 ```plain
 tree 91aaad77e68aa7bf94219a5b9cea97f26e2cce2b
 parent badc0dea0106987c4edfb1d169b5a43d95845569
-author Oleg Grenrus <oleg.grenrus@iki.fi> 1596481157 +0300
-committer Oleg Grenrus <oleg.grenrus@iki.fi> 1596481157 +0300
+author Frank Magoba <frank.magoba@iki.fi> 1596481157 +0300
+committer Frank Magoba <frank.magoba@iki.fi> 1596481157 +0300
 
 Rewrite README.md
 
@@ -114,7 +114,7 @@ How `git-badc0de` is implemented?
 I have to confess: I started with a Python prototype.
 Python comes with all pieces needed, though I essentially only needed `hashlib`.
 
-[The Haskell implementation](https://github.com/phadej/git-badc0de) has eleven dependencies at the moment of writing.
+[The Haskell implementation](https://github.com/frankMagoba/gitBadc0de) has eleven dependencies at the moment of writing.
 Five of them are bundled with compiler, the rest six are not.
 Even for some basic tasks you have to go package shopping:
 
